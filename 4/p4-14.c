@@ -7,12 +7,8 @@ int main(){
     printf("请输入一个正整数：");
     scanf("%d",&a);
     }while(a<=0);
-    c=0;
-    b=a;
-    for(;b>10;){
-        b=b-10;
-        c++;
-    }
+    c=a/10;
+    b=a%10;
     for(i=0;i<c;i++){
         printf("1234567890");
     }
