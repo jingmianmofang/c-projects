@@ -1,4 +1,4 @@
-/*创建一个函数search_idx,将和有n个元素的数组v中的key相等的所有元素的下标存储
+ /*创建一个函数search_idx,将和有n个元素的数组v中的key相等的所有元素的下标存储
 在数组idx中,返回和key相等的元素的个数。
 int search_idx(const int v[] int idx[],int key,int n);
 例如，如果v中所接收的数组的元素是{1,7,5,7,2,4,7},
